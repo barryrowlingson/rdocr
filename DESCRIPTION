@@ -1,8 +1,10 @@
 Package: rdocr
-Title: 
-Description: 
+Title: Search RDocumentation.org
+Description: Query RDocumentation.org for a query string.
 Version: 0.1
-Authors@R: # getOptions('devtools.desc.author')
+Author: Barry Rowlingson <b.rowlingson@gmail.com>
+Maintainer: Barry Rowlingson <b.rowlingson@gmail.com>
 Depends: R (>= 3.0.1)
-License: # getOptions('devtools.desc.license')
+Depends: rjson, httr
+License: 
 LazyData: true
